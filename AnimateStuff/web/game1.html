@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            #container {
+                height: 500px;
+                width: 500px;
+                position: relative;
+                background-color: grey;
+            }
+            .ball{
+                background-color: red;
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+        <script>
+            System.import("app2");
+        </script>
+    <div>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+        
+        <h1>Game 1</h1>
+      <canvas id="canvas" width="800" height="600">
+      Sorry, browser does not support canvas.
+      </canvas>
+    </div>
+        
+    </body>
+</html>
