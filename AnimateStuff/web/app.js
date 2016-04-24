@@ -51,4 +51,3 @@ g.start();
 //             circle.direction = "right";
 //         }
 //     }
-// }
